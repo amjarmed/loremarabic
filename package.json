@@ -1,0 +1,15 @@
+{
+  "name": "loremarabic",
+  "version": "1.0.0",
+  "description": "generate lorem text in arabic language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lorem",
+    "arabic"
+  ],
+  "author": "amjarino",
+  "license": "ISC"
+}
