@@ -1,6 +1,6 @@
 {
   "name": "loremarabic",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "generate arabic lorem text, contain over sex methods , you have full optionality to choose what you like, random letters, paragraphs, sentences...",
   "main": "index.js",
   "dependencies": {
@@ -12,6 +12,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["lorem", "arabic"],
-  "author": "amjarmedo <mohamedajar8@gmail.com> (https://www.elkasabasoft.com/)",
+  "author": {
+    "name": "amjarino",
+    "email": "mohamedajar8@gmail.com",
+    "url": "https://www.elkasabasoft.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/amjarino/loremarabic/issues"
+  },
   "license": "MIT"
 }
