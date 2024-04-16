@@ -1,6 +1,6 @@
 /////////////////////////////   arLetter   ////////////////////////
-const db = require('../db/db'),
-  _rand = require("lodash/random");
+const db = require('../db/LoremData');
+_rand = require('lodash/random');
 /**
  * get one random arabic  [latter](https://en.wikipedia.org/wiki/arabic_latters).
  *
