@@ -2,8 +2,6 @@
 
 generate **arabic lorem text**, contain over 6 methods , you have full optionality to choose what you like, random letters, paragraphs, sentences...
 
-> **note :** I just start learning node js and npm, so this package i'ts not stable right now, and my english too :)
-
 ## features
 
 - include 1 versions of arabic lorem text.
