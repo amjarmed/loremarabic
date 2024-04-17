@@ -1,13 +1,13 @@
 # Lorem Arabic
 
-generate **arabic lorem text**, contain over sex methods , you have full optionality to choose what you like, random letters, paragraphs, sentences...
+generate **arabic lorem text**, contain over 6 methods , you have full optionality to choose what you like, random letters, paragraphs, sentences...
 
 > **note :** I just start learning node js and npm, so this package i'ts not stable right now, and my english too :)
 
 ## features
 
-- include 3 versions of arabic lorem text.
-- include 1 real arabic text but make nonesense.
+- include 1 versions of arabic lorem text.
+- include 1 Natural arabic text but make nonsense.
 - arabic letters.
 - include 3 versions of original lorem text.
 - include 2 versions of english lorem text.
@@ -27,7 +27,7 @@ generate **arabic lorem text**, contain over sex methods , you have full optiona
 
     const loremar= require("loremarabic");
     console.log(loremar.ArabicLorem().paragraph());
-    => 'لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا '
+    => 'الإتحاد في, ذات أسيا للغزو، الخطّة و, الآخر لألمانيا جهة بل. في سحقت هيروشيما البريطاني يتم, غريمه باحتلال الأيديولوجية، في فصل, دحر وقرى لهيمنة'
 ```
 
 ---
@@ -56,7 +56,5 @@ generate **arabic lorem text**, contain over sex methods , you have full optiona
 ---
 
 > This project is licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
-
----
 
 ---
