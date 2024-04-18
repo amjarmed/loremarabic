@@ -1,16 +1,16 @@
 # Lorem Arabic
 
-generate **arabic lorem text**, contain over 6 methods , you have full optionality to choose what you like, random letters, paragraphs, sentences...
+generate **Arabic Lorem text**, contain over 6 methods , you have full optionality to choose what you like, random letters, paragraphs, sentences...
 
 ## features
 
-- include 1 versions of arabic lorem text.
-- include 1 Natural arabic text but make nonsense.
-- arabic letters.
-- include 3 versions of original lorem text.
-- include 2 versions of english lorem text.
+- Includes 1 version of Arabic Lorem text.
+- Includes 1 Natural Arabic text but make nonsense.
+- Arabic letters.
+- Includes 3 versions of original Lorem text.
+- Includes 2 versions of English Lorem text.
 
-**important**: keep in mind that arabic language is RTL, and use UTF-8 for charset.
+**important**: keep in mind that Arabic language is RTL, and use UTF-8 for charset.
 
 ## Usage
 
@@ -23,8 +23,8 @@ generate **arabic lorem text**, contain over 6 methods , you have full optionali
 ```js
 // yourfile.js
 
-    const loremArabic= require("loremarabic");
-    console.log(loremArabic().paragraph);
+    const LoremArabic= require("LoremArabic");
+    console.log(LoremArabic.paragraph);
     => 'الإتحاد في, ذات أسيا للغزو، الخطّة و, الآخر لألمانيا جهة بل. في سحقت هيروشيما البريطاني يتم, غريمه باحتلال الأيديولوجية، في فصل, دحر وقرى لهيمنة'
 ```
 
@@ -32,23 +32,23 @@ generate **arabic lorem text**, contain over 6 methods , you have full optionali
 
 ## methods
 
-`alphabets`      | Return a arabic alphabets array
+`alphabets`      | Return a Arabic alphabets array
 
-`word()`           | Return a random word  
+`word`           | Return a random word  
 
-`paragraph()`           | Return a random paragraph
+`paragraph`           | Return a random paragraph
 
-`post()`           | Return a random post [ object ]  
+`post`           | Return a random post [ object ]  
 
-`naturalEnglish`  | return a natural long english [ string ] text
+`naturalEnglish`  | return a natural long English [ string ] text
 
-`naturalArabic`  | return a natural long arabic [ string ] text
+`naturalArabic`  | return a natural long Arabic [ string ] text
 
-`loremIpsum`  | return a natural long Lorem Ipsum [ string ] text
+`LoremIpsum`  | return a natural long Lorem Ipsum [ string ] text
 
 ---
 
-> text from [www.nabadv.com](https://www.nabadv.com/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%84%D9%84%D9%85%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%D9%86/411-lorem-ipsum.html).
+> text from [www.nabadv.com](https://www.nabadv.com/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%84%D9%84%D9%85%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%D9%86/411-Lorem-ipsum.html).
 
 > visit my Portfolio [https://www.amjarmed.com/](https://www.amjarmed.com/)
 ---

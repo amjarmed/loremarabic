@@ -1,6 +1,6 @@
 {
   "name": "loremarabic",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "description": "generate arabic lorem text, contain over sex methods , you have full optionality to choose what you like, random letters, paragraphs, sentences...",
   "main": "index.js",
   "scripts": {
