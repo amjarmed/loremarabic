@@ -1,7 +1,3 @@
-(moment = require('moment')),
-  (_ = require('lodash/array')),
-  (_rand = require('lodash/random'));
-
 /*
    ARABIC AND ENGLISH LOREM IPSUM DATA 
   */
@@ -57,27 +53,28 @@ const ArabicLorem = () => ({
     // convert to an array of words
     let data = loremData.arabicWords.split(' ');
 
-    return data[_rand(0, data.length)]
+    return data[randomLorem(0, data.length)]
       .toString()
       .replace(/[^؀-ۿً-ۓ ٠-٩]/g, ' ')
       .trim();
   },
   paragraph: (max = 1) => {
     let words = loremData.arabicWords;
-    const position = _rand(0, words.length);
-    let ps = words.slice(position, position + 150);
+    const position = randomLorem(0, words.length);
+    let ps = words.slice(
+      position + 150 > words.length || position + 150 === words.length
+        ? position - 150
+        : position,
+      position + 150,
+    );
     return ps.toString().trim().concat('.');
   },
   post: {
-    title: () => {
-      let words = loremData.arabicWords;
-      const position = _rand(0, words.length);
-      let ps = words.slice(position, position + 50);
-      return ps.toString().trim().concat('.');
-    },
-    date: moment().fromNow(),
+    title: randomText(loremData.arabicWords, 80),
+    date: new Date().toISOString(),
+    intro: randomText(loremData.arabicWords, 150),
     content: loremData.arabicWords,
-    thumb: 'https://placeholder.com/#333',
+    thumb: `https://placeholder.com/#${randomLorem(111, 999)}`,
   },
   naturalEnglish: loremData.loremEngish,
   loremIpsum: loremData.loremOriginal,
@@ -85,3 +82,26 @@ const ArabicLorem = () => ({
 });
 
 module.exports = ArabicLorem;
+
+// Local Methods
+function randomLorem(min = 0, max = 10) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function randomText(text, chars = 10) {
+  const article = text;
+  const articleLength = article.length;
+  const rndNum1 = randomLorem(0, articleLength);
+  const title = article
+    .slice(
+      rndNum1 + chars > articleLength || rndNum1 + chars === articleLength
+        ? rndNum1 - chars
+        : rndNum1,
+      rndNum1 + chars,
+    )
+    .toString()
+    .trim()
+    .concat(' ');
+
+  return title;
+}

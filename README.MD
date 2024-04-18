@@ -23,8 +23,8 @@ generate **arabic lorem text**, contain over 6 methods , you have full optionali
 ```js
 // yourfile.js
 
-    const loremar= require("loremarabic");
-    console.log(loremar.ArabicLorem().paragraph());
+    const loremArabic= require("loremarabic");
+    console.log(loremArabic().paragraph);
     => 'الإتحاد في, ذات أسيا للغزو، الخطّة و, الآخر لألمانيا جهة بل. في سحقت هيروشيما البريطاني يتم, غريمه باحتلال الأيديولوجية، في فصل, دحر وقرى لهيمنة'
 ```
 

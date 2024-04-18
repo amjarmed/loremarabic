@@ -4,6 +4,4 @@
  *@author : amjarmed
  *@website : https://www.amjarmed.com/
  */
-module.exports = {
-  ArabicLorem: require('./src/methods/ArabicLorem'),
-};
+module.exports = require('./src/methods/ArabicLorem');
